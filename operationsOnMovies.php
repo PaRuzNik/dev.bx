@@ -1,27 +1,21 @@
 <?php
 
-require ("movies.php");
+require("movies.php");
 
-function SortAgeByResult(int $age,array $movies):void
+function printSortedMoviesByAge(int $age, array $movies): void
 {
-
 	$NumberInMovies = 1;
 	foreach ($movies as $movie)
 	{
 		if ($movie["age_restriction"] <= $age)
-			{
-
-				echo "{$NumberInMovies}.".MovieFormat($movie)."\n";
-				$NumberInMovies++;
-			}
+		{
+			echo "{$NumberInMovies}." . formatMovie($movie) . "\n";
+			$NumberInMovies++;
+		}
 	}
-
 }
 
-function MovieFormat(array $movie) : string
+function formatMovie(array $movie): string
 {
-
-	return "  {$movie['title']} ({$movie['release_year']}), 
-	Age restriction {$movie['age_restriction']}+   Rating {$movie['rating']}";
-
+	return "  {$movie['title']} ({$movie['release_year']}), {$movie['age_restriction']}+.   Rating {$movie['rating']}";
 }
