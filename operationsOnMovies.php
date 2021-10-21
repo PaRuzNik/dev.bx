@@ -17,5 +17,5 @@ function printSortedMoviesByAge(int $age, array $movies): void
 
 function formatMovie(array $movie): string
 {
-	return "  {$movie['title']} ({$movie['release_year']}), {$movie['age_restriction']}+.   Rating {$movie['rating']}";
+	return "  {$movie['title']} ({$movie['release_year']}), {$movie['age_restriction']}+. - Rating {$movie['rating']}";
 }
