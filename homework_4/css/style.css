@@ -90,7 +90,7 @@
 	left: 0;
 	width: 24px;
 	height: 24px;
-	background: url("../img-tex/search.svg") center no-repeat;
+	background: url("../icons/Search.svg") center no-repeat;
 }
 
 .search-bar--input {
@@ -234,7 +234,7 @@
 	left: 0;
 	width: 20px;
 	height: 20px;
-	background: url("../img-tex/clock.svg") center no-repeat;
+	background: url("../icons/Clock.svg") center no-repeat;
 }
 
 .movie-list--item-genre {
