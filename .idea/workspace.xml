@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="8" />
+    <option name="CUSTOM_SCOPE_NAME" value="Project Files" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="252dd967-3c89-42e9-a8ea-90f7f46b1b95" name="Changes" comment="homework_3" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" show_ignored="true" />
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="homework1" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="PhpDebugGeneral" xdebug_force_break_when_no_path_mapping="false" xdebug_force_break_when_outside_project="false" />
+  <component name="PhpServers">
+    <servers>
+      <server host="dev.bx" id="8f0021b3-27dc-4b5c-b7d3-721f7e1e7c26" name="dev.bx" />
+      <server host="PhpStorm 2021.3 EAP" id="a3ba2d9d-ee01-4241-946f-04cdb4dc5bf7" name="PhpStorm 2021.3 EAP" port="63342" />
+      <server host="dev.bx" id="3ae8f9d0-6d2f-43c3-b3d5-8f1f09ecb617" name="dev.bx (1)" port="443" />
+    </servers>
+  </component>
+  <component name="PhpWebServerValidation" path_to_validation_script="C:\Users\Pasha\OpenServer\domains\dev.bx" selected_validation_type="LOCAL" web_path_to_validation_script="http://dev.bx" />
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="1z3NIl1gFxQGwLUJsrVIwYMbWbp" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RunConfigurationTargetLRU" value="df162e51-41fb-4a49-8d4e-bc6c38264330" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/db_create (6) (1).sql" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager" selected="Database Script.dev">
+    <configuration name="dev" type="DatabaseScript">
+      <script-file value="$PROJECT_DIR$/db_create_data (7) (1).sql" />
+      <script-mode>FILE</script-mode>
+      <data-source id="df162e51-41fb-4a49-8d4e-bc6c38264330" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Todo.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/Todo.php">
+      <CommandLine>
+        <PhpTestInterpreterSettings>
+          <option name="interpreterName" value="PHP" />
+        </PhpTestInterpreterSettings>
+      </CommandLine>
+      <method v="2" />
+    </configuration>
+    <configuration name="index.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/index.php">
+      <method v="2" />
+    </configuration>
+    <configuration name="program" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/program.php">
+      <CommandLine workingDirectory="$PROJECT_DIR$">
+        <PhpTestInterpreterSettings>
+          <option name="interpreterName" value="PHP" />
+        </PhpTestInterpreterSettings>
+      </CommandLine>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Database Script.dev" />
+      <item itemvalue="PHP Script.Todo.php" />
+      <item itemvalue="PHP Script.index.php" />
+      <item itemvalue="PHP Script.program" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="252dd967-3c89-42e9-a8ea-90f7f46b1b95" name="Changes" comment="" />
+      <created>1633372735257</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1633372735257</updated>
+      <workItem from="1633372737198" duration="647000" />
+      <workItem from="1633373418170" duration="409000" />
+      <workItem from="1633707310766" duration="22000" />
+      <workItem from="1633709723070" duration="368000" />
+      <workItem from="1633710310363" duration="1141000" />
+      <workItem from="1633712792950" duration="56000" />
+      <workItem from="1633966675509" duration="186000" />
+      <workItem from="1634053851260" duration="414000" />
+      <workItem from="1634054372028" duration="1759000" />
+      <workItem from="1634056236016" duration="646000" />
+      <workItem from="1634140602722" duration="105000" />
+      <workItem from="1634141079950" duration="4168000" />
+      <workItem from="1634151877622" duration="2878000" />
+      <workItem from="1634810815450" duration="5473000" />
+      <workItem from="1634819092028" duration="1137000" />
+      <workItem from="1634820376087" duration="709000" />
+      <workItem from="1634821844264" duration="47000" />
+      <workItem from="1634822087317" duration="1418000" />
+      <workItem from="1634823719362" duration="345000" />
+      <workItem from="1635013054790" duration="3486000" />
+      <workItem from="1635017940052" duration="51000" />
+      <workItem from="1635087257669" duration="3339000" />
+      <workItem from="1635264049236" duration="9000" />
+      <workItem from="1635771296007" duration="374000" />
+    </task>
+    <task id="LOCAL-00001" summary="homework1">
+      <created>1634054912659</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1634054912659</updated>
+    </task>
+    <task id="LOCAL-00002" summary="homework_2">
+      <created>1634816018330</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1634816018330</updated>
+    </task>
+    <task id="LOCAL-00003" summary="homework_2 Внес изменения в название функций и поправил ошибки в стиле. Также исправлен вывод.">
+      <created>1634820119590</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1634820119590</updated>
+    </task>
+    <task id="LOCAL-00004" summary="homework_2 Внес изменения в название функций и поправил ошибки в стиле. Также исправлен вывод.">
+      <created>1634820900921</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1634820900921</updated>
+    </task>
+    <task id="LOCAL-00005" summary="homework_2 Внес изменения в название функций и поправил ошибки в стиле. Также исправлен вывод.">
+      <created>1634821049588</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1634821049588</updated>
+    </task>
+    <task id="LOCAL-00006" summary="homework_2 Убрал привидение к числу в ненужном месте">
+      <created>1634823335028</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1634823335028</updated>
+    </task>
+    <task id="LOCAL-00007" summary="homework_3">
+      <created>1635090532448</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1635090532449</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="HEAD" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="homework1" />
+    <MESSAGE value="homework_2" />
+    <MESSAGE value="homework_2 Внес изменения в название функций и поправил ошибки в стиле. Также исправлен вывод." />
+    <MESSAGE value="homework_2 Убрал привидение к числу в ненужном месте" />
+    <MESSAGE value="homework_2 Убрал приведение к числу в ненужном месте" />
+    <MESSAGE value="homework_3" />
+    <option name="LAST_COMMIT_MESSAGE" value="homework_3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
