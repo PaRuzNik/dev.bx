@@ -56,5 +56,30 @@ where LANGUAGE_ID = 'ru' and (
     from movie_genre
     WHERE movie.ID = movie_genre.MOVIE_ID) > 3;
 -- 8).Вывести самый популярный жанр для каждого актёра.
-select actor.NAME, genre.NAME
-from genre;
+select a.NAME, g.ID
+from movie m
+     inner join movie_actor ma
+         on m.ID = ma.MOVIE_ID
+     inner join actor a
+         on ma.ACTOR_ID = a.ID
+     inner join movie_genre mg
+         on m.ID = mg.MOVIE_ID
+     inner join genre g
+         on mg.GENRE_ID = g.ID
+where g.ID =
+      (
+      select g2.ID
+      from movie m2
+           inner join movie_genre mg2
+               on m2.ID = mg2.MOVIE_ID
+           inner join genre g2
+               on mg2.GENRE_ID = g2.ID
+           inner join movie_actor ma2
+               on m2.ID = ma2.MOVIE_ID
+          inner join actor a2
+               on ma2.ACTOR_ID = a2.ID
+      where ma2.ACTOR_ID = a.ID
+      group by g2.ID
+      order by count(1) desc
+      limit 1)
+group by a.NAME;
