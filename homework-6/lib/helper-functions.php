@@ -24,7 +24,6 @@ function formatMessage(string $text): string
 {
 	if (strlen($text) > 125)
 	{
-		$text = substr($text, strpos($text, ',', 3));
 		$text = mb_substr($text, 0, 125) . '...';
 	}
 
