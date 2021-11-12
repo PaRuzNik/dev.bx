@@ -24,7 +24,7 @@
 		<div class="sidebar-logotype" style="background-image: url(./resources/img/icons/Logo.svg);"></div>
 		<ul class="menu">
 			<li class="menu-item <?= $currentPage === 'index' ? "menu-item--active" : "" ?>">
-				<a href="<?= "index" . ".php" ?>"><?= $config['menu']['index'] ?></a>
+				<a href="<?= "index.php" ?>"><?= $config['menu']['index'] ?></a>
 			</li>
 			<?php
 			foreach ($genres as $code => $name): ?>
@@ -35,7 +35,7 @@
 			<?php
 			endforeach; ?>
 			<li class="menu-item <?= $currentPage === 'favorites' ? "menu-item--active" : "" ?>">
-				<a href="<?= "favorites" . ".php" ?>"><?= $config['menu']['favorites'] ?></a>
+				<a href="<?= "favorites.php" ?>"><?= $config['menu']['favorites'] ?></a>
 			</li>
 		</ul>
 	</div>
