@@ -28,7 +28,7 @@ function getGenreList(array $genres): string
 	}
 
 	$result = mb_substr( $result,0, -2, 'UTF-8');
-	return mb_strlen($result, 'UTF-8') <= 30? $result : formatMessage($result, 27);
+	return mb_strlen($result, 'UTF-8') <= 30? $result : formatTitle($result);
 }
 
 function movieSquareRating(int $i, float $rating): string

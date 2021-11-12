@@ -4,9 +4,7 @@
 ?>
 
 <div class="movie-list--item">
-	<div class="movie-list--item-image" style="background-image: url(<?= "./resources/img/"
-	. $movie['id']
-	. ".jpg" ?>);"></div>
+	<div class="movie-list--item-image" style="background-image: url(<?= "./resources/img/" . $movie['id'] . ".jpg" ?>);"></div>
 	<div class="movie-list--item-head">
 		<div class="movie-list--item-title"><?= formatTitle($movie['title']) ?></div>
 		<div class="movie-list--item-subtitle"><?= formatTitle($movie['original-title']) ?></div>
@@ -23,9 +21,6 @@
 		</div>
 	</div>
 	<div class="movie-list--item-overlap">
-		<a href="<?= "details"
-		. ".php"
-		. "?id="
-		. $movie['id'] ?>" class="movie-list--item-overlap--more"><?= "Подробнее" ?></a>
+		<a href="<?= "details" . ".php" . "?id=" . $movie['id'] ?>" class="movie-list--item-overlap--more"><?= "Подробнее" ?></a>
 	</div>
 </div>

@@ -28,9 +28,9 @@
 			</li>
 			<?php
 			foreach ($genres as $code => $name): ?>
-				<li class="menu-item <?= $currentPage === "index.php" . "?genre=" . $code ? "menu-item--active"
+				<li class="menu-item <?= $currentPage === "index.php" . "?genre=" . $name ? "menu-item--active"
 					: "" ?>">
-					<a href="<?= "index.php" . "?genre=" . $code ?>"><?= $name ?></a>
+					<a href="<?= "index.php" . "?genre=" . $name ?>"><?= $name ?></a>
 				</li>
 			<?php
 			endforeach; ?>
